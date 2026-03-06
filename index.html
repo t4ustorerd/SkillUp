@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUp | Your First Opportunity Starts Here</title>
+    <meta name="description"
+        content="Connecting students ages 15-21 with businesses offering internships and entry-level opportunities that do not require prior experience.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="wizard.css?v=3">
+</head>
+
+<body>
+
+    <!-- Gradient Background Elements -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="noise-overlay"></div>
+
+    <nav class="navbar hidden-onload">
+        <a href="#" class="brand-link">
+            <!-- CSS Logo -->
+            <div class="logo-custom">
+                <span class="logo-text">Skillup<span class="logo-arrow">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#70baff" stroke-width="4"
+                            stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(-45deg);">
+                            <polyline points="6 17 11 12 6 7"></polyline>
+                            <polyline points="13 17 18 12 13 7"></polyline>
+                        </svg>
+                    </span></span>
+            </div>
+        </a>
+        <div class="nav-links">
+            <a href="#how-it-works" data-i18n="nav.howItWorks">How It Works</a>
+            <a href="#why-skillup" data-i18n="nav.whySkillup">Why SkillUp</a>
+            <a href="#impact" data-i18n="nav.impact">Impact</a>
+        </div>
+        <div class="nav-actions">
+            <div class="lang-toggle">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
+            <a href="#cta" class="btn btn-outline nav-btn" data-i18n="nav.cta">Get Started</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content hidden-onload">
+                <div class="tagline" data-i18n="hero.tagline">Experience Without Experience</div>
+                <h1 class="hero-title" data-i18n="hero.title">Your First Opportunity<br>Starts Here.</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Connecting driven students with real-world experience
+                    &mdash; no prior
+                    experience required. Build your future today.</p>
+                <div class="hero-buttons">
+                    <a href="#profile" class="btn btn-primary glow-effect" data-i18n="hero.btnStudent">I'm a Student</a>
+                    <a href="#business-finder" class="btn btn-secondary" data-i18n="hero.btnBusiness">I'm a Business</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2.6 About Us & Mission/Vision -->
+        <section class="about-section fade-in-section reveal-item" id="about">
+            <div class="container">
+                <div class="text-center mb-large">
+                    <div class="label" data-i18n="about.title">About Us</div>
+                    <h2 class="section-title" data-i18n="about.title">About Us</h2>
+                    <p class="hero-subtitle max-w-800 mx-auto" data-i18n="about.desc">
+                        SkillUp is a digital platform that drives unexplored talent. Connecting adolescents and young
+                        people without work experience with companies, it facilitates access to employment opportunities
+                        through vocational test results, identifying skills, interests, and talents to create each
+                        profile.
+                    </p>
+                </div>
+
+                <div class="mission-vision-grid mt-5">
+                    <div class="glass-card mission-card reveal-item">
+                        <div class="card-icon-svg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="6"></circle>
+                                <circle cx="12" cy="12" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="mission.title">Our Mission</h3>
+                        <p data-i18n="mission.text">Reduce youth unemployment by facilitating access to employment
+                            opportunities through the use of technology.</p>
+                    </div>
+                    <div class="glass-card vision-card reveal-item">
+                        <div class="card-icon-svg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="vision.title">Our Vision</h3>
+                        <p data-i18n="vision.text">Contribute to the formation of a prepared generation that strengthens
+                            the country's economy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2.65 Value Proposition -->
+        <section class="value-prop fade-in-section reveal-item" id="value-proposition">
+            <div class="container">
+                <div class="value-prop-card glass-card fade-up">
+                    <div class="label" data-i18n="value.title">Value Proposition</div>
+                    <h2 class="section-title left-align" data-i18n="value.title">Value Proposition</h2>
+                    <p class="hero-subtitle mb-0" data-i18n="value.text">
+                        To combat youth unemployment, our platform connects young people with little or no work
+                        experience with companies seeking emerging talent. Unlike traditional platforms that prioritize
+                        previous experience, we focus on evaluating skills, qualities, and potential, and translate them
+                        into concrete opportunities. Depending on the result of each test, the user is recommended
+                        different available jobs in the companies that require them.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2.7 Customer Relationships -->
+        <section class="relationships fade-in-section reveal-item" id="relationships">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <div class="label" data-i18n="relationships.title">Customer Relationships</div>
+                    <h2 class="section-title" data-i18n="relationships.title">Customer Relationships</h2>
+                </div>
+                <div class="split-layout">
+                    <div class="split-col fade-right">
+                        <div class="relationship-card glass-card">
+                            <h3 class="mb-3" data-i18n="relationships.students.title">For Youth</h3>
+                            <div class="feature-list-simple" data-i18n="relationships.students.list">
+                                • Digital self-service<br>• Automated AI support<br>• Personalized recommendations
+                            </div>
+                        </div>
+                    </div>
+                    <div class="split-col fade-left">
+                        <div class="relationship-card glass-card">
+                            <h3 class="mb-3" data-i18n="relationships.businesses.title">For Businesses</h3>
+                            <div class="feature-list-simple" data-i18n="relationships.businesses.list">
+                                • B2B platform<br>• Automated candidate matching<br>• Monthly subscription
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2.72 Social Impact (SDG 8) -->
+        <section class="social-impact fade-in-section reveal-item" id="social-impact">
+            <div class="container">
+                <div class="impact-featured-card glass-card reveal-item">
+                    <div class="impact-glow"></div>
+                    <div class="split-layout">
+                        <div class="split-col">
+                            <div class="label" data-i18n="social.title">Social Impact</div>
+                            <h2 class="section-title left-align" data-i18n="social.title">Social Impact</h2>
+                            <p class="hero-subtitle mb-4 text-gradient" data-i18n="social.text">
+                                Our project reduces unemployment and develops youth training, thus strengthening our
+                                country's economy. At the same time, it contributes to SDG 8: Decent work and economic
+                                growth.
+                            </p>
+                            <div class="ods-container">
+                                <a href="https://sdgs.un.org/goals/goal8" target="_blank" rel="noopener"
+                                    class="ods-link reveal-item">
+                                    <div class="ods-card">
+                                        <div class="ods-badge-v2">
+                                            <div class="ods-number-v2">8</div>
+                                            <div class="ods-icon-svg">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2">
+                                                    <path d="M18 20V10M12 20V4M6 20v-6"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="ods-details">
+                                            <span class="ods-text-v2" data-i18n="social.ods">SDG 8: Decent Work &
+                                                Economic Growth</span>
+                                            <div class="ods-progress-bar">
+                                                <div class="ods-progress-fill"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="split-col flex-center">
+                            <div class="impact-visual-sleek">
+                                <div class="connectivity-svg-wrapper">
+                                    <svg class="connectivity-svg" viewBox="0 0 200 200"
+                                        preserveAspectRatio="xMidYMid slice">
+                                        <defs>
+                                            <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" stop-color="var(--accent-blue)" stop-opacity="0" />
+                                                <stop offset="50%" stop-color="var(--accent-teal)" stop-opacity="1" />
+                                                <stop offset="100%" stop-color="var(--accent-blue)" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                        <circle class="node node-1" cx="40" cy="40" r="3" />
+                                        <circle class="node node-2" cx="160" cy="60" r="3" />
+                                        <circle class="node node-3" cx="100" cy="150" r="3" />
+                                        <circle class="node node-4" cx="30" cy="140" r="3" />
+                                        <path class="conn-line line-1" d="M40 40 L160 60" />
+                                        <path class="conn-line line-2" d="M160 60 L100 150" />
+                                        <path class="conn-line line-3" d="M100 150 L30 140" />
+                                        <path class="conn-line line-4" d="M30 140 L40 40" />
+                                        <path class="conn-line line-5" d="M40 40 L100 150" />
+                                    </svg>
+                                </div>
+                                <div class="visual-orb-sleek"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. How It Works Section -->
+        <section class="how-it-works fade-in-section reveal-item" id="how-it-works">
+            <div class="container">
+                <h2 class="section-title" data-i18n="howItWorks.title">How It Works</h2>
+                <div class="steps-grid">
+                    <div class="step-card fade-up">
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="howItWorks.step1.title">1. Create a Profile</h3>
+                        <p data-i18n="howItWorks.step1.desc">Students build a profile highlighting their drive, skills,
+                            and interests in minutes.</p>
+                    </div>
+                    <div class="step-card fade-up delay-1">
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="howItWorks.step2.title">2. Post Opportunities</h3>
+                        <p data-i18n="howItWorks.step2.desc">Businesses post internships and entry-level roles designed
+                            for motivated young talent.</p>
+                    </div>
+                    <div class="step-card fade-up delay-2">
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="howItWorks.step3.title">3. Smart Matching</h3>
+                        <p data-i18n="howItWorks.step3.desc">Our intelligent system connects the right students with the
+                            right businesses automatically.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2.5 Phone Mockup Showcase -->
+        <section class="matching-showcase fade-in-section reveal-item" id="matching">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-col fade-right device-wrapper">
+                        <!-- Apple-style glowing behind the phone -->
+                        <div class="device-glow"></div>
+
+                        <div class="device-mockup" id="phoneMockup">
+                            <div class="device-notch"></div>
+                            <div class="device-screen">
+                                <div class="app-header">
+                                    <div class="app-logo-small">SkillUp</div>
+                                    <div class="app-profile-icon"></div>
+                                </div>
+
+                                <!-- Card that can be swiped -->
+                                <div class="match-card student-profile interactive-card" id="matchCard">
+                                    <div class="card-image-placeholder">
+                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                            stroke="rgba(255,255,255,0.8)" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 data-i18n="matching.card.name">Alex J., 17</h4>
+                                        <p data-i18n="matching.card.role">Aspiring Developer</p>
+                                        <div class="app-tags">
+                                            <span class="app-tag" data-i18n="matching.card.tag1">Frontend</span>
+                                            <span class="app-tag" data-i18n="matching.card.tag2">Design</span>
+                                        </div>
+                                    </div>
+                                    <div class="swipe-hint" data-i18n="matching.hint">Drag right to match</div>
+                                </div>
+
+                                <div class="swipe-actions">
+                                    <button class="btn-swipe reject" id="btnReject">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                                        </svg>
+                                    </button>
+                                    <button class="btn-swipe accept" id="btnAccept">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+
+                                <div class="match-success-overlay" id="matchSuccess">
+                                    <div class="success-icon">
+                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                                            stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <h3 data-i18n="matching.success.title">It's a Match!</h3>
+                                    <p data-i18n="matching.success.desc">TechCorp wants to meet you.</p>
+                                    <button class="btn-app-primary" id="btnReset"
+                                        data-i18n="matching.success.btn">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="split-col fade-left">
+                        <div class="label" data-i18n="matching.label">Smart Matching</div>
+                        <h2 class="section-title left-align" style="margin-bottom: 1.5rem;" data-i18n="matching.title">
+                            Connect with a swipe.</h2>
+                        <p class="hero-subtitle" style="margin-bottom: 2.5rem;" data-i18n="matching.subtitle">Our
+                            intuitive interface makes
+                            discovering opportunities and talent as simple as a swipe. Interact with the device to see
+                            how businesses find their ideal candidates instantly.</p>
+                        <ul class="feature-list">
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="matching.feature1">Algorithm-curated daily
+                                    matches</span></li>
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="matching.feature2">Zero fluff, straight to the
+                                    point</span></li>
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="matching.feature3">Instant connections via
+                                    chat</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 2.75 AI-Powered Profile Builder Wizard -->
+        <section class="profile-builder fade-in-section reveal-item" id="profile">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <div class="label" data-i18n="profile.label">Your Profile</div>
+                    <h2 class="section-title" style="margin-bottom: 1rem;" data-i18n="profile.title">Your story,
+                        beautifully told.</h2>
+                    <p class="hero-subtitle" data-i18n="profile.subtitle">Our AI-powered wizard builds your perfect
+                        profile in minutes. Answer a few questions and watch the magic happen.</p>
+                </div>
+
+                <div class="builder-showcase">
+                    <div class="wizard-container">
+                        <!-- Step Indicator -->
+                        <div class="step-indicator">
+                            <div class="step-progress-line">
+                                <div class="step-progress-fill" id="stepProgressFill"></div>
+                            </div>
+                            <div class="step-dot active" data-step="0">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="wizard.step1">Welcome</span>
+                            </div>
+                            <div class="step-dot" data-step="1">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="wizard.step2">Academics</span>
+                            </div>
+                            <div class="step-dot" data-step="2">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="wizard.step3">Personality</span>
+                            </div>
+                            <div class="step-dot" data-step="3">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="wizard.step4">Skills</span>
+                            </div>
+                            <div class="step-dot" data-step="4">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="wizard.step5">Profile</span>
+                            </div>
+                        </div>
+
+                        <!-- Steps Container -->
+                        <div class="steps-viewport">
+                            <!-- STEP 1: Name -->
+                            <div class="wizard-step active" id="step0">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="wizard.welcome.title">Let's get to know you</h3>
+                                    <p class="step-desc" data-i18n="wizard.welcome.desc">We'll build your perfect
+                                        profile together, starting with your name.</p>
+                                    <div class="step-fields">
+                                        <div class="input-wrapper">
+                                            <input type="text" id="wNameInput" class="glass-input large-input"
+                                                placeholder="What's your name?"
+                                                data-i18n-placeholder="wizard.welcome.namePh" autocomplete="off">
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 1b: Age -->
+                            <div class="wizard-step" id="step0b">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="wizard.welcome.ageTitle">How old are you?</h3>
+                                    <p class="step-desc" data-i18n="wizard.welcome.ageDesc">This helps us find
+                                        age-appropriate opportunities.</p>
+                                    <div class="step-fields">
+                                        <div class="input-wrapper">
+                                            <select id="wAgeRange" class="glass-input glass-select large-input">
+                                                <option value="" disabled selected data-i18n="wizard.welcome.agePh">Your
+                                                    age range</option>
+                                                <option value="15-17">15–17</option>
+                                                <option value="18-19">18–19</option>
+                                                <option value="20-21">20–21</option>
+                                            </select>
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 2: GPA -->
+                            <div class="wizard-step" id="step1">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="wizard.academics.title">Your academic
+                                        performance</h3>
+                                    <p class="step-desc" data-i18n="wizard.academics.gpaDesc">Enter your current GPA or
+                                        grades.</p>
+                                    <div class="step-fields">
+                                        <div class="input-wrapper">
+                                            <input type="text" id="wGpaInput" class="glass-input large-input"
+                                                placeholder="e.g. 3.8 GPA"
+                                                data-i18n-placeholder="wizard.academics.gpaPh" autocomplete="off">
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 2b: Level -->
+                            <div class="wizard-step" id="step1b">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="wizard.academics.levelTitle">School Level</h3>
+                                    <p class="step-desc" data-i18n="wizard.academics.levelDesc">What is your current
+                                        level of education?</p>
+                                    <div class="step-fields">
+                                        <div class="input-wrapper">
+                                            <select id="wSchoolLevel" class="glass-input glass-select large-input">
+                                                <option value="" disabled selected data-i18n="wizard.academics.levelPh">
+                                                    School level</option>
+                                                <option value="highschool" data-i18n="wizard.academics.hs">High School
+                                                </option>
+                                                <option value="college" data-i18n="wizard.academics.college">College /
+                                                    University</option>
+                                                <option value="vocational" data-i18n="wizard.academics.vocational">
+                                                    Vocational / Trade</option>
+                                            </select>
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 2c: Field -->
+                            <div class="wizard-step" id="step1c">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                                            <path
+                                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="wizard.academics.fieldTitle">Field of Interest
+                                    </h3>
+                                    <p class="step-desc" data-i18n="wizard.academics.fieldDesc">What subjects or
+                                        industries are you passionate about?</p>
+                                    <div class="step-fields">
+                                        <div class="input-wrapper">
+                                            <input type="text" id="wFieldInput" class="glass-input large-input"
+                                                placeholder="e.g. Computer Science, Design..."
+                                                data-i18n-placeholder="wizard.academics.fieldPh" autocomplete="off">
+                                            <span class="focus-border"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 3: AI Personality Quiz -->
+                            <div class="wizard-step" id="step2">
+                                <div class="step-content-centered quiz-step">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path
+                                                d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.78-3.04 2.5 2.5 0 0 1-2.42-4.63 2.5 2.5 0 0 1 .83-4.73A2.5 2.5 0 0 1 9.5 2z">
+                                            </path>
+                                            <path
+                                                d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.78-3.04 2.5 2.5 0 0 0 2.42-4.63 2.5 2.5 0 0 0-.83-4.73A2.5 2.5 0 0 0 14.5 2z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="wizard.quiz.title">AI Personality Analysis</h3>
+                                    <p class="step-desc" data-i18n="wizard.quiz.desc">Answer 4 quick scenarios. Our AI
+                                        will map your personality traits.</p>
+
+                                    <!-- Quiz Questions (one at a time) -->
+                                    <div class="quiz-container" id="quizContainer">
+                                        <!-- Question 1 -->
+                                        <div class="quiz-question active" data-q="0">
+                                            <p class="quiz-q-label" data-i18n="wizard.quiz.q1.label">Scenario 1 of 4</p>
+                                            <p class="quiz-q-text" data-i18n="wizard.quiz.q1.text">You're assigned a
+                                                group project with no clear leader. What do you do?</p>
+                                            <div class="quiz-options">
+                                                <button class="quiz-option" data-traits="leader,decisive"
+                                                    data-i18n="wizard.quiz.q1.a">Take charge and organize the
+                                                    team</button>
+                                                <button class="quiz-option" data-traits="creative,innovator"
+                                                    data-i18n="wizard.quiz.q1.b">Brainstorm unique ideas and propose a
+                                                    creative direction</button>
+                                                <button class="quiz-option" data-traits="analytical,detail"
+                                                    data-i18n="wizard.quiz.q1.c">Research thoroughly and build a
+                                                    detailed plan</button>
+                                                <button class="quiz-option" data-traits="collaborator,empathetic"
+                                                    data-i18n="wizard.quiz.q1.d">Check in with everyone and make sure
+                                                    all voices are heard</button>
+                                            </div>
+                                        </div>
+                                        <!-- Question 2 -->
+                                        <div class="quiz-question" data-q="1">
+                                            <p class="quiz-q-label" data-i18n="wizard.quiz.q2.label">Scenario 2 of 4</p>
+                                            <p class="quiz-q-text" data-i18n="wizard.quiz.q2.text">You have a free
+                                                Saturday. How do you spend it?</p>
+                                            <div class="quiz-options">
+                                                <button class="quiz-option" data-traits="creative,innovator"
+                                                    data-i18n="wizard.quiz.q2.a">Working on a personal project or
+                                                    hobby</button>
+                                                <button class="quiz-option" data-traits="collaborator,empathetic"
+                                                    data-i18n="wizard.quiz.q2.b">Hanging out with friends or meeting new
+                                                    people</button>
+                                                <button class="quiz-option" data-traits="analytical,detail"
+                                                    data-i18n="wizard.quiz.q2.c">Reading, learning something new, or
+                                                    taking an online course</button>
+                                                <button class="quiz-option" data-traits="leader,decisive"
+                                                    data-i18n="wizard.quiz.q2.d">Planning your goals and organizing your
+                                                    week ahead</button>
+                                            </div>
+                                        </div>
+                                        <!-- Question 3 -->
+                                        <div class="quiz-question" data-q="2">
+                                            <p class="quiz-q-label" data-i18n="wizard.quiz.q3.label">Scenario 3 of 4</p>
+                                            <p class="quiz-q-text" data-i18n="wizard.quiz.q3.text">A teammate misses a
+                                                deadline. How do you react?</p>
+                                            <div class="quiz-options">
+                                                <button class="quiz-option" data-traits="leader,decisive"
+                                                    data-i18n="wizard.quiz.q3.a">Reassign tasks to keep the project on
+                                                    track</button>
+                                                <button class="quiz-option" data-traits="empathetic,collaborator"
+                                                    data-i18n="wizard.quiz.q3.b">Talk to them privately and offer
+                                                    help</button>
+                                                <button class="quiz-option" data-traits="analytical,detail"
+                                                    data-i18n="wizard.quiz.q3.c">Analyze what went wrong and create a
+                                                    better system</button>
+                                                <button class="quiz-option" data-traits="creative,innovator"
+                                                    data-i18n="wizard.quiz.q3.d">Find a creative workaround to recover
+                                                    lost time</button>
+                                            </div>
+                                        </div>
+                                        <!-- Question 4 -->
+                                        <div class="quiz-question" data-q="3">
+                                            <p class="quiz-q-label" data-i18n="wizard.quiz.q4.label">Scenario 4 of 4</p>
+                                            <p class="quiz-q-text" data-i18n="wizard.quiz.q4.text">You're given a chance
+                                                to pitch an idea to a CEO. What's your approach?</p>
+                                            <div class="quiz-options">
+                                                <button class="quiz-option" data-traits="leader,decisive"
+                                                    data-i18n="wizard.quiz.q4.a">Lead with a bold, confident
+                                                    vision</button>
+                                                <button class="quiz-option" data-traits="analytical,detail"
+                                                    data-i18n="wizard.quiz.q4.b">Present data-driven arguments with
+                                                    clear metrics</button>
+                                                <button class="quiz-option" data-traits="creative,innovator"
+                                                    data-i18n="wizard.quiz.q4.c">Design a visually stunning presentation
+                                                    that tells a story</button>
+                                                <button class="quiz-option" data-traits="collaborator,empathetic"
+                                                    data-i18n="wizard.quiz.q4.d">Focus on how the idea will help people
+                                                    and build community</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- AI Analysis Overlay -->
+                                    <div class="ai-analysis-overlay hidden" id="aiAnalysisOverlay">
+                                        <div class="ai-orb-container">
+                                            <div class="ai-orb"></div>
+                                            <div class="ai-orb-ring"></div>
+                                        </div>
+                                        <p class="ai-analysis-text" id="aiAnalysisText">Analyzing your responses...</p>
+                                        <div class="ai-progress-bar">
+                                            <div class="ai-progress-fill" id="aiProgressFill"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Trait Results (shown after analysis) -->
+                                    <div class="trait-results hidden" id="traitResults">
+                                        <h4 class="trait-results-title" data-i18n="wizard.quiz.resultsTitle">Your AI
+                                            Personality Profile</h4>
+                                        <div class="trait-cards" id="traitCards">
+                                            <!-- Filled dynamically by JS -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 4: Skills & Experience -->
+                            <div class="wizard-step" id="step3">
+                                <div class="step-content-two-col">
+                                    <div class="step-col-form">
+                                        <div class="step-icon-inline">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                            </svg>
+                                        </div>
+                                        <h3 class="step-heading" data-i18n="wizard.skills.title">Skills & Experience
+                                        </h3>
+
+                                        <div class="builder-group">
+                                            <h4 class="group-label" data-i18n="profile.group5.title">Role & Availability
+                                            </h4>
+                                            <div class="input-wrapper" style="margin-bottom:1rem;">
+                                                <input type="text" id="wRoleInput" class="glass-input"
+                                                    placeholder="e.g. Frontend Developer"
+                                                    data-i18n-placeholder="profile.group5.role" autocomplete="off">
+                                                <span class="focus-border"></span>
+                                            </div>
+                                            <div class="input-wrapper">
+                                                <input type="text" id="wAvailInput" class="glass-input"
+                                                    placeholder="e.g. 15 hrs/week, Summer"
+                                                    data-i18n-placeholder="profile.group5.avail" autocomplete="off">
+                                                <span class="focus-border"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="builder-group">
+                                            <h4 class="group-label" data-i18n="profile.group2.title">Core Strengths</h4>
+                                            <p class="group-desc" data-i18n="profile.group2.desc">Select up to 3</p>
+                                            <div class="tags-container" id="strengthsContainer">
+                                                <button class="interactive-tag strength-tag"
+                                                    data-i18n="profile.tags.strength1">Leadership</button>
+                                                <button class="interactive-tag strength-tag"
+                                                    data-i18n="profile.tags.strength2">Communication</button>
+                                                <button class="interactive-tag strength-tag"
+                                                    data-i18n="profile.tags.strength3">Problem Solving</button>
+                                                <button class="interactive-tag strength-tag"
+                                                    data-i18n="profile.tags.strength4">Creativity</button>
+                                                <button class="interactive-tag strength-tag"
+                                                    data-i18n="profile.tags.strength5">Adaptability</button>
+                                                <button class="interactive-tag strength-tag"
+                                                    data-i18n="profile.tags.strength6">Work Ethic</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="builder-group">
+                                            <h4 class="group-label" data-i18n="profile.group3.title">Areas for Growth
+                                            </h4>
+                                            <div class="tags-container" id="weaknessContainer">
+                                                <button class="interactive-tag weakness-tag"
+                                                    data-i18n="profile.tags.weakness1">Public Speaking</button>
+                                                <button class="interactive-tag weakness-tag"
+                                                    data-i18n="profile.tags.weakness2">Time Management</button>
+                                                <button class="interactive-tag weakness-tag"
+                                                    data-i18n="profile.tags.weakness3">Delegation</button>
+                                                <button class="interactive-tag weakness-tag"
+                                                    data-i18n="profile.tags.weakness4">Patience</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="builder-group">
+                                            <h4 class="group-label" data-i18n="profile.group4.title">Relevant Experience
+                                                (Optional)</h4>
+                                            <div class="input-wrapper">
+                                                <textarea id="wExpInput" class="glass-input textarea"
+                                                    placeholder="Mention any clubs, projects, or volunteer work..."
+                                                    data-i18n-placeholder="profile.group4.exp" rows="3"></textarea>
+                                                <span class="focus-border"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="step-col-preview">
+                                        <div class="builder-visualizer">
+                                            <div class="visualizer-inner">
+                                                <div class="profile-score-ring">
+                                                    <svg viewBox="0 0 100 100">
+                                                        <circle cx="50" cy="50" r="45" class="bg-circle"></circle>
+                                                        <circle cx="50" cy="50" r="45" class="progress-circle"
+                                                            id="profileProgress"></circle>
+                                                    </svg>
+                                                    <div class="score-text">
+                                                        <span id="scoreValue">0</span>%
+                                                        <small data-i18n="profile.visualizer.complete">Complete</small>
+                                                    </div>
+                                                </div>
+                                                <div class="score-feedback" id="scoreFeedback"
+                                                    data-i18n="profile.visualizer.feedback.start">
+                                                    Start building your profile to unlock matches.
+                                                </div>
+                                                <div class="live-preview-card" id="livePreviewCard">
+                                                    <div class="preview-header">
+                                                        <div class="preview-avatar" id="previewAvatar"></div>
+                                                        <div class="preview-title">
+                                                            <div id="previewName" class="skeleton-line short"></div>
+                                                            <div id="previewGpa" class="preview-badge hidden"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="preview-body">
+                                                        <div id="previewRole" class="skeleton-line"></div>
+                                                        <div id="previewAvail" class="skeleton-line short"></div>
+                                                        <div id="previewTraits" class="preview-traits-row"></div>
+                                                    </div>
+                                                    <div class="preview-tags" id="previewTags"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 5: Complete Profile -->
+                            <div class="wizard-step" id="step4">
+                                <div class="step-content-centered">
+                                    <canvas id="confettiCanvas"></canvas>
+                                    <div class="step-icon celebration-icon">🎉</div>
+                                    <h3 class="step-heading" data-i18n="wizard.complete.title">Your profile is ready!
+                                    </h3>
+                                    <p class="step-desc" data-i18n="wizard.complete.desc">Here's what our AI built for
+                                        you.</p>
+
+                                    <div class="final-profile-card" id="finalProfileCard">
+                                        <div class="final-profile-header">
+                                            <div class="final-avatar" id="finalAvatar"></div>
+                                            <div class="final-info">
+                                                <h4 id="finalName">—</h4>
+                                                <span class="final-badge" id="finalBadge"></span>
+                                            </div>
+                                            <div class="final-score-ring">
+                                                <svg viewBox="0 0 60 60">
+                                                    <circle cx="30" cy="30" r="26" class="bg-circle-sm"></circle>
+                                                    <circle cx="30" cy="30" r="26" class="progress-circle-sm"
+                                                        id="finalProgress"></circle>
+                                                </svg>
+                                                <span class="final-score-val" id="finalScoreVal">0%</span>
+                                            </div>
+                                        </div>
+                                        <div class="final-ai-summary" id="finalAiSummary">
+                                            <!-- AI-generated summary text -->
+                                        </div>
+                                        <div class="final-traits" id="finalTraits">
+                                            <!-- Trait badges filled by JS -->
+                                        </div>
+                                        <div class="final-details" id="finalDetails">
+                                            <!-- Role, field, availability -->
+                                        </div>
+                                        <div class="final-tags" id="finalTags">
+                                            <!-- Strength + weakness tags -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="wizard-nav">
+                            <button class="wizard-btn wizard-btn-back hidden" id="wizardBack"
+                                data-i18n="wizard.back">Back</button>
+                            <button class="wizard-btn wizard-btn-next" id="wizardNext" data-i18n="wizard.next">Next
+                                →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3.5 Business Match Finder (Moved after Student Profile) -->
+        <section class="business-finder fade-in-section reveal-item" id="business-finder">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <div class="label" data-i18n="businessFinder.label">For Businesses</div>
+                    <h2 class="section-title" data-i18n="businessFinder.title">Find Your Future Talent</h2>
+                    <p class="hero-subtitle max-w-800 mx-auto" data-i18n="businessFinder.subtitle">
+                        Tell us what you're looking for, and we'll show you the students who match your vision.
+                    </p>
+                </div>
+
+                <!-- Business Wizard (Aesthetic Twin of Student Profile) -->
+                <div class="builder-showcase">
+                    <div class="wizard-container" id="businessWizardContainer">
+                        <!-- Step Indicator -->
+                        <div class="step-indicator" id="bizStepIndicator">
+                            <div class="step-progress-line">
+                                <div class="step-progress-fill" id="bizProgressFill"></div>
+                            </div>
+                            <div class="step-dot active" data-step="0">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="businessFinder.step1.label">Industry</span>
+                            </div>
+                            <div class="step-dot" data-step="1">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="businessFinder.step2.label">Qualities</span>
+                            </div>
+                            <div class="step-dot" data-step="2">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="businessFinder.step3.label">Engagement</span>
+                            </div>
+                            <div class="step-dot" data-step="3">
+                                <span class="step-dot-inner"></span>
+                                <span class="step-dot-label" data-i18n="businessFinder.step4.label">Matches</span>
+                            </div>
+                        </div>
+
+                        <!-- Steps Viewport -->
+                        <div class="steps-viewport">
+                            <!-- Step 1: Industry -->
+                            <div id="bizStep1" class="wizard-step active">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                                            <path d="M9 22v-4h6v4"></path>
+                                            <path d="M8 6h.01"></path>
+                                            <path d="M16 6h.01"></path>
+                                            <path d="M8 10h.01"></path>
+                                            <path d="M16 10h.01"></path>
+                                            <path d="M8 14h.01"></path>
+                                            <path d="M16 14h.01"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="businessFinder.step1.q">What industry are you
+                                        in?</h3>
+                                    <p class="step-desc" data-i18n="businessFinder.step1.desc">This helps us narrow down
+                                        candidates with the right background.</p>
+                                    <div class="options-grid">
+                                        <button class="option-card" data-val="tech">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.industry.tech">Technology</span>
+                                        </button>
+                                        <button class="option-card" data-val="design">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                                    <path d="M2 2l1.5 1.5"></path>
+                                                    <circle cx="11" cy="11" r="2"></circle>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.industry.design">Design & Creative</span>
+                                        </button>
+                                        <button class="option-card" data-val="marketing">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                                    <polyline points="17 6 23 6 23 12"></polyline>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.industry.marketing">Marketing</span>
+                                        </button>
+                                        <button class="option-card" data-val="other">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.industry.other">Other</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 2: Qualities -->
+                            <div id="bizStep2" class="wizard-step">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="businessFinder.step2.q">Which qualities matter
+                                        most?</h3>
+                                    <p class="step-desc" data-i18n="businessFinder.step2.desc">Select the primary
+                                        character traits sought in your future team.</p>
+                                    <div class="options-grid">
+                                        <button class="option-card" data-val="creative">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path d="M9 18h6"></path>
+                                                    <path d="M10 22h4"></path>
+                                                    <path
+                                                        d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.qualities.creative">Creativity</span>
+                                        </button>
+                                        <button class="option-card" data-val="technical">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path d="M6 18h8"></path>
+                                                    <path d="M3 22h18"></path>
+                                                    <path d="M14 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"></path>
+                                                    <path d="M9 14h2"></path>
+                                                    <path d="M9 12a2 2 0 1 1-2-2 2 2 0 0 1 2 2z"></path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.qualities.technical">Technical Logic</span>
+                                        </button>
+                                        <button class="option-card" data-val="collaborative">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                                    <circle cx="9" cy="7" r="4"></circle>
+                                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                                </svg>
+                                            </span>
+                                            <span
+                                                data-i18n="businessFinder.qualities.collaborative">Collaboration</span>
+                                        </button>
+                                        <button class="option-card" data-val="driven">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M4.5 16.5c-1.5 1.26-2 2.67-2 3.5 0 1 2 2 4 2s4-1 4-2c0-.83-.5-2.24-2-3.5">
+                                                    </path>
+                                                    <path d="M15 14.5l-4-4"></path>
+                                                    <path d="M20 7l-5 5 2 2 5-5-2-2z"></path>
+                                                    <path d="M13 8l2 2"></path>
+                                                    <path d="M11 11l2 2"></path>
+                                                    <path d="M16 5l2 2"></path>
+                                                    <path d="M19 2l-3 3"></path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.qualities.driven">High Drive</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 3: Engagement -->
+                            <div id="bizStep3" class="wizard-step">
+                                <div class="step-content-centered">
+                                    <div class="step-icon">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="9" cy="7" r="4"></circle>
+                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="step-heading" data-i18n="businessFinder.step3.q">Type of engagement?</h3>
+                                    <p class="step-desc" data-i18n="businessFinder.step3.desc">Define the nature of the
+                                        opportunity you are providing.</p>
+                                    <div class="options-grid">
+                                        <button class="option-card" data-val="internship">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.step3.internship">Internship</span>
+                                        </button>
+                                        <button class="option-card" data-val="apprenticeship">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 1 0-8.49 8.49l3.77-3.77a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0l-3.77 3.77a6 6 0 1 0 8.49-8.49L14.7 6.3z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.step3.apprenticeship">Apprenticeship</span>
+                                        </button>
+                                        <button class="option-card" data-val="project">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.step3.project">Short-term Project</span>
+                                        </button>
+                                        <button class="option-card" data-val="parttime">
+                                            <span class="option-icon">
+                                                <svg viewBox="0 0 24 24">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                                </svg>
+                                            </span>
+                                            <span data-i18n="businessFinder.step3.parttime">Part-time Job</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 4: Searching -->
+                            <div id="bizStep4" class="wizard-step">
+                                <div class="step-content-centered">
+                                    <h3 class="step-heading" data-i18n="businessFinder.step4.q">Searching for matches...
+                                    </h3>
+                                    <div class="loading-animation">
+                                        <div class="pulse-ring"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Results (Initially Hidden) -->
+                <div id="studentResultsView" class="hidden">
+                    <div class="results-header d-flex justify-content-between align-items-center mb-4">
+                        <h3 data-i18n="businessFinder.results.title">Top Student Matches</h3>
+                        <button class="btn btn-text" id="restartBizWizard"
+                            data-i18n="businessFinder.results.restart">Change Criteria</button>
+                    </div>
+                    <div class="student-grid" id="studentMatchGrid">
+                        <!-- Dynamic Student Cards go here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Why SkillUp Section -->
+        <section class="why-skillup fade-in-section reveal-item" id="why-skillup">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-col fade-right">
+                        <div class="label" data-i18n="why.student.label">For Students</div>
+                        <h2 class="section-title left-align" data-i18n="why.student.title">Gain experience early.</h2>
+                        <ul class="feature-list">
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="why.student.list1">Build a real-world resume
+                                    before graduating.</span></li>
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="why.student.list2">Discover career paths you'll
+                                    actually love.</span></li>
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="why.student.list3">Connect with mentors and
+                                    industry professionals.</span></li>
+                        </ul>
+                    </div>
+                    <div class="split-col fade-left">
+                        <div class="impact-glass-card student-card">
+                            <div class="glass-header" data-i18n="why.student.card.title">Student Success</div>
+                            <div class="glass-body" data-i18n="why.student.card.body">"SkillUp helped me land my first
+                                marketing internship when I was 16.
+                                It changed my trajectory entirely."</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="split-layout reverse mt-large">
+                    <div class="split-col fade-left">
+                        <div class="label" data-i18n="why.business.label">For Businesses</div>
+                        <h2 class="section-title left-align" data-i18n="why.business.title">Discover motivated talent.
+                        </h2>
+                        <ul class="feature-list">
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="why.business.list1">Access a fresh pool of young,
+                                    driven candidates.</span></li>
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="why.business.list2">Build your talent pipeline
+                                    early and reduce future hiring costs.</span>
+                            </li>
+                            <li><span class="feature-icon-svg"><svg viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg></span> <span data-i18n="why.business.list3">Bring fresh, innovative
+                                    perspectives to your team.</span></li>
+                        </ul>
+                    </div>
+                    <div class="split-col fade-right">
+                        <div class="impact-glass-card business-card">
+                            <div class="glass-header" data-i18n="why.business.card.title">Business Impact</div>
+                            <div class="glass-body" data-i18n="why.business.card.body">"The students we found through
+                                SkillUp have been our most eager and
+                                dedicated interns."</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Trust & Impact Section -->
+        <section class="impact fade-in-section reveal-item" id="impact">
+            <div class="container text-center">
+                <h2 class="section-title" data-i18n="impact.title">Making a Real Impact</h2>
+                <div class="stats-grid">
+                    <div class="stat-item fade-up">
+                        <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+                        <div class="stat-label" data-i18n="impact.stat1">Students Matched</div>
+                    </div>
+                    <div class="stat-item fade-up delay-1">
+                        <div class="stat-number"><span class="counter" data-target="120">0</span>+</div>
+                        <div class="stat-label" data-i18n="impact.stat2">Partner Businesses</div>
+                    </div>
+                    <div class="stat-item fade-up delay-2">
+                        <div class="stat-number"><span class="counter" data-target="95">0</span>%</div>
+                        <div class="stat-label" data-i18n="impact.stat3">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Call to Action -->
+        <section class="cta fade-in-section reveal-item" id="cta">
+            <div class="container text-center">
+                <h2 class="cta-title" data-i18n="cta.title">Start Building Your Future Today.</h2>
+                <p class="cta-subtitle" data-i18n="cta.subtitle">Join the platform redefining early career
+                    opportunities.</p>
+                <div class="cta-actions">
+                    <button class="btn btn-primary glow-effect btn-large" data-i18n="cta.btn">Create Your
+                        Account</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="brand-link">
+                        <div class="logo-custom">
+                            <span class="logo-text">Skillup<span class="logo-arrow">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#70baff"
+                                        stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+                                        style="transform: rotate(-45deg);">
+                                        <polyline points="6 17 11 12 6 7"></polyline>
+                                        <polyline points="13 17 18 12 13 7"></polyline>
+                                    </svg>
+                                </span></span>
+                        </div>
+                    </a>
+                    <p class="footer-desc mt-3" style="margin-top: 1rem;" data-i18n="footer.desc">Empowering the next
+                        generation of talent.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.links.platform">Platform</h4>
+                    <a href="#" data-i18n="footer.links.student">For Students</a>
+                    <a href="#" data-i18n="footer.links.business">For Businesses</a>
+                    <a href="#" data-i18n="footer.links.how">How it Works</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.links.company">Company</h4>
+                    <a href="#" data-i18n="footer.links.about">About Us</a>
+                    <a href="#" data-i18n="footer.links.careers">Careers</a>
+                    <a href="#" data-i18n="footer.links.contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 SkillUp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pricing Modal -->
+    <div class="modal-overlay" id="pricingModal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="closePricingModal">&times;</button>
+            <h2 class="modal-title" data-i18n="pricing.title">Choose Your Path</h2>
+
+            <div class="pricing-tabs">
+                <button class="pricing-tab active" data-type="student" data-i18n="pricing.tab.student">Student</button>
+                <button class="pricing-tab" data-type="business" data-i18n="pricing.tab.business">Business</button>
+            </div>
+
+            <!-- Student Pricing Options -->
+            <div class="pricing-view active" id="pricingStudent">
+                <div class="pricing-grid grid-2">
+                    <div class="pricing-card basic">
+                        <h3 data-i18n="pricing.student.basic.title">Basic Plan</h3>
+                        <div class="price" data-i18n="pricing.student.basic.price">Free</div>
+                        <ul class="pricing-features">
+                            <li data-i18n="pricing.student.basic.f1">Profile creation</li>
+                            <li data-i18n="pricing.student.basic.f2">Skills test</li>
+                            <li data-i18n="pricing.student.basic.f3">Apply to jobs</li>
+                            <li data-i18n="pricing.student.basic.f4">Basic automatic recommendations</li>
+                        </ul>
+                        <button class="btn btn-outline" style="width:100%" data-i18n="pricing.getStarted">Get
+                            Started</button>
+                    </div>
+                    <div class="pricing-card premium glow-effect">
+                        <div class="popular-badge" data-i18n="pricing.popular">Most Popular</div>
+                        <h3 data-i18n="pricing.student.premium.title">Premium Plan</h3>
+                        <div class="price" data-i18n="pricing.student.premium.price">$4.99<span
+                                class="period">/mo</span></div>
+                        <ul class="pricing-features">
+                            <li data-i18n="pricing.student.premium.f1">Priority in matching</li>
+                            <li data-i18n="pricing.student.premium.f2">Detailed skills report</li>
+                            <li data-i18n="pricing.student.premium.f3">AI interview practice</li>
+                            <li data-i18n="pricing.student.premium.f4">Optimized profile ranking</li>
+                        </ul>
+                        <button class="btn btn-primary" style="width:100%" data-i18n="pricing.getPremium">Get
+                            Premium</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Pricing Options -->
+            <div class="pricing-view" id="pricingBusiness">
+                <div class="pricing-grid grid-1">
+                    <div class="pricing-card premium glow-effect"
+                        style="max-width: 500px; margin: 0 auto; width: 100%;">
+                        <h3 data-i18n="pricing.business.basic.title">Business Basic</h3>
+                        <div class="price" data-i18n="pricing.business.basic.price">$40<span class="period">/mo</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li data-i18n="pricing.business.basic.f1">Full access to student profiles</li>
+                            <li data-i18n="pricing.business.basic.f2">Categorized by skills you need</li>
+                            <li data-i18n="pricing.business.basic.f3">Unlimited opportunity posting</li>
+                        </ul>
+                        <button class="btn btn-primary" style="width:100%" data-i18n="pricing.getStarted">Get
+                            Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="wizard.js?v=3"></script>
+    <script src="business-wizard.js?v=3"></script>
+    <script src="script.js?v=3"></script>
+</body>
+
+</html>
